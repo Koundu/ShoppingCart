@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+}
+
+
+#card{
+    width: 340px;
+    height: 658px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#card button{
+    width: 100%;
+    height: 56px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#card #image{
+    background: url(../images/shirtImage.jpg);
+    width: 100%;
+    height: 453px;
+    flex-shrink: 0;
+    margin-bottom: auto;
+}
+
+
+#card #text #line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#card #text #line1 #price,#size{
+    font-weight: 400;
+    margin-left: 16px;
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+#card #text #color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 16px;
+    align-items: baseline;
+    justify-content: flex-start;
+}
+
+#card #text #color #colorText{
+    font-size: 24px;
+    padding-top: -10px;
+    margin-left: 16px;
+    font-weight: 400;
+}
+
+#card #text #color #colors{
+    margin-left: 24px;
+}
+#card #text #color #colors span{
+    font-size: 24px;
+    font-weight: 400;
+    margin-inline: 0.75px;
+}
+
+#card #text #rating{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    cursor: pointer;
+}
+
+
+.checked{
+    color: orange;
+    font-size: 24px;
+}
+
+#card #text #rating :first-child {
+    font-size: 24px;
+    margin-left: 16px;
+    font-weight: 400;
+}
+
+#card #button button{
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+#card #text #color #colors span input{
+    width: 17px;
+    height: 17px;
+    border-radius: 1000px;
+    border: none;
+}
+
+#card #text #color #colors span:first-child input{
+    background-color: red;
+}
+
+#card #text #color #colors span:nth-child(2n) input{
+    background-color: aqua;
+}
+
+#card #text #color #colors span:last-child input{
+    background-color: greenyellow;
+}

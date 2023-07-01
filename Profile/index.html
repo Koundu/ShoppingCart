@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="delay_time; URL=new_website_url" />
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Authentication Page</title>
+</head>
+<body>
+    <!--NavBar-->
+    <div id="navBar">
+        <div id="left"><a href="../"><p>Shopping Cart</p></a></div>
+    </div>
+    <h1 id="heading1">My Profile</h1>
+    <!--First Name-->    
+    <div>
+        <input type="text" id="fname" placeholder="First Name" value="">
+    </div>
+    <!--Last Name-->
+    <div>
+        <input type="text" id="lname" placeholder="Last Name">
+    </div>
+    <!--Save Button-->
+    <div id="buttonCase">
+        <a href="#">            
+            <button id="submit" type="submit">Save Info</button>        
+        </a>
+    </div>
+    <h1>Edit Password</h1>
+    <!--EMail-->
+    <div>
+        <input type="password" id="email" placeholder="Old Password">
+    </div>
+    <!--Password-->
+    <div>
+        <input type="password" id="password" placeholder="New Password">
+    </div>
+    <!--Confirm Password-->
+    <div>
+        <input type="password" id="cpassword" placeholder="Confirm New Password">
+    </div>
+    <!--Submit-->
+    <div id="buttonCase">
+        <a href="../MyCart/">            
+            <button type="submit" id="change">Change Password</button>        
+        </a>
+        <a href="../">            
+            <button type="submit" id="logout">Logout</button>        
+        </a>
+    </div>
+    <script src="./script.js">       
+    </script>
+</body>
+</html>

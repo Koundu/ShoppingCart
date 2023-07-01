@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="delay_time; URL=new_website_url" />
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>Shop</title>
+</head>
+<body>
+    <!--This Section is For NavBar-->    
+    <div id="navBar">
+        <div id="left"><p>MeShop.</p></div>
+        <div id="right">
+            <p id="home">Home</p>
+            <p id="login">Login</p>
+            <p id="signup">Signup</p>
+            <p id="myCart"><a href="./MyCart/">MyCart</a></p>
+            <p id="profile">Profile</p>
+        </div>
+    </div>
+    <div id="container">
+        <!--This Section belongs to the sideNav Bar-->
+        <div id="sideNav">
+        <!--Code for the Colors-->
+        <div id="colors">
+            <p>Colors</p>
+            <div>
+                <input type="checkbox">
+                <label for="red">Red</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="green">Green</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="blue">Blue</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="yellow">Yellow</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="white">White</label>
+            </div>
+        </div>
+        <hr>
+        <div id="sizes">
+            <p>Sizes</p>
+            <div>
+                <input type="checkbox">
+                <label for="S">S</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="M">M</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="L">L</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="XL">XL</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="XXL">XXL</label>
+            </div>
+        </div>  
+        <hr>
+        <div id="rating">
+            <p>Rating</p>
+            <p>0 <input type="range" min="0" max="5" value="1"> 5</p>
+        </div>
+        <hr>
+        <div id="price">
+            <p>Price Range</p>
+            <div>
+                <input type="checkbox">
+                <label for="range1">$0 to $25</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="range2">$25 to $50</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="range3">$50 to $100</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="range4">$100 onwards</label>
+            </div>
+        </div>
+        <a href="../MyCart/"><button id="applyFilter">Apply Filter</button></a>
+        </div>
+        <div id="viewPort">
+            <div id="search">
+                <input type="search" id="searchBar" placeholder="Search Bar" >
+            </div>
+            <div id="button">
+                <button>All</button>
+                <button>Mens</button>
+                <button>Womens</button>
+                <button>Jewellery</button>
+                <button>Electronics</button>
+            </div>
+            <div id="cardView" >
+                <p>Men's Clothing</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>

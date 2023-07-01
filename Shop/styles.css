@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+*{
+    margin: 0px;
+    width: 100vw;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+#navBar{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 1728px;
+    height: 95px;
+    font-size: 24px;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid white;
+}
+
+#navBar #left > p{
+    font-weight: 400;
+    width: 119px;
+    height: 29px;
+    padding-left: 62px;
+    padding-bottom: 95px + (-33px);
+    cursor: pointer;
+}
+
+#navBar #right{
+    display: flex;
+    font-weight: 100;
+    margin-left: 700px;
+}
+
+#navBar #right > p{
+    margin: 10px;
+    width: auto;
+    height: 29px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#sideNav{
+    display: flex;
+    flex-direction: column;
+    width: 221px;
+    height: 1022px;
+    background-color: black;
+    color: white;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+
+
+#sideNav #colors{
+    background-color: inherit;
+    width: inherit;
+}
+
+#sideNav > div {
+    background-color: inherit;
+    width: inherit;
+    margin-block: 10px;
+
+}
+
+#sideNav #rating input[type="range"]{
+    width: 150px;
+    color: white;
+}
+
+#sideNav p{
+    background-color: black;
+    width: 221px;
+    padding-top: 10px;
+}
+
+#sideNav #colors {
+    width: 221px;
+    justify-content: space-evenly;
+}
+
+#sideNav label,input[type="checkbox"]{
+    display: inline-block;
+    width:  21px;
+    height: 21px;
+    align-items: baseline;
+    background-color: black !important;
+    margin: 10px;
+}
+
+#sideNav #price label,input[type="checkbox"] p{
+    width: auto;
+}
+
+#sideNav label{
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+input[type="checkbox"]{
+    accent-color: black;
+    vertical-align: middle;
+}
+
+hr{
+    width: 221px;
+}
+
+#sideNav p{
+    text-align: center;
+    font-size: 24px;
+    padding-block: 10px;
+}
+
+#sideNav button{
+    width: 136px;
+    height: 56px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 21px;
+    cursor: pointer;
+}
+
+input[type="search"]{
+    width: 1450px;
+    height: 72px;
+    margin: 19px 26px 23px 31px;
+    font-size: 24px;
+}
+
+#container #input{
+    display: flex;
+    flex-direction: row;
+}
+
+#container p #button{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#container #viewPort #button button{
+    width: 269.541px;
+    height: 56px;
+    font-size: 24px;
+    color: white;
+    margin-inline: 10px;
+    color: black;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+#container #viewPort #button button:hover{
+    background-color: black;
+    color: white;
+    font-weight: 100;
+}
+
+
+#container #viewPort #button button:first-child{
+    background-color: black;
+    color: white;
+    margin-left: 33px;
+}
+
+
+#container #viewPort #cardView p{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    width: auto;
+    font-weight: 400;
+    line-height: normal;
+    height: 36px;
+    margin-left: 41px;
+    margin-top: 27px;
+}

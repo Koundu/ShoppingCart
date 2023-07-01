@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+
+*{
+    margin: 0px;
+    width: 100vw;
+    height: auto;
+    font-family: 'Inter', sans-serif;    
+}
+
+/*NavBar CSS*/
+
+#navBar{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 1728px;
+    height: 89px;
+    font-size: 24px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#navBar #left > p{
+    font-weight: 400;
+    width: 164px;
+    height: 29px;
+    margin-block: 10px;
+    margin-inline: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 35px;
+    margin-block: 30px;
+}
+
+
+/*Input CSS*/
+input{
+    width: 1634px;
+    height: 72px;
+    margin-left: 57px;
+    font-size: 24px;
+    margin-right: 37px;
+    margin-block:10px;
+}
+
+button{
+    width: 276px;
+    height: 56px;
+    margin-left: 57px;
+    margin-top: 28px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+a:-webkit-any-link {
+    cursor: inherit;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    width: 208px;
+    height: 36px;
+    font-size: 30px;
+    margin-left: 57px;
+    margin-bottom: 40px;
+    margin-top: 64px;
+}
+
+h1{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+h1#heading1{
+    margin-top: 42px;
+    margin-bottom:27px;
+}
+
+h1:nth-child(2n){
+    margin-top: 0px;
+    margin-bottom: 42px;
+}

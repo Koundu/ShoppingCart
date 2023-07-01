@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+
+*{
+    margin: 0px;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;    
+}
+
+/*NavBar CSS*/
+
+#navBar{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 1728px;
+    height: 95px;
+    font-size: 24px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+#navBar #left > p{
+    font-weight: 400;
+    width: 119px;
+    height: 29px;
+    padding-left: 62px;
+    margin-block: 10px;
+    margin-inline: 10px;
+    cursor: pointer;
+}
+
+#navBar #right{
+    display: flex;
+    font-weight: 100;
+    margin-left: 700px;
+    justify-content: space-evenly;
+}
+
+#navBar #right > p{
+    margin: 10px;
+    width: auto;
+    height: 29px;
+    cursor: pointer;
+}
+
+#navBar #right > p a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Input CSS*/
+
+input{
+    width: 1634px;
+    height: 72px;
+    margin-left: 57px;
+    font-size: 24px;
+    margin-right: 37px;
+    margin-block:10px;
+}
+
+button{
+    width: 208px;
+    height: 56px;
+    margin-left: 57px;
+    margin-top: 28px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+a:-webkit-any-link {
+    cursor: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+p{
+    width: 208px;
+    height: 36px;
+    font-size: 30px;
+    margin-left: 57px;
+    margin-bottom: 40px;
+    margin-top: 64px;
+}

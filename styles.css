@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap');
+
+*{
+    margin: 0px;
+    width: 100vw;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+
+#navBar{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 1728px;
+    height: 95px;
+    font-size: 24px;
+    align-items: center;
+    align-content: center;
+}
+
+#navBar #left > p{
+    font-weight: 400;
+    width: 119px;
+    height: 29px;
+    padding-left: 62px;
+    padding-bottom: 95px + (-33px);
+    cursor: pointer;
+}
+
+#navBar #right{
+    display: flex;
+    font-weight: 100;
+    margin-left: 700px;
+}
+
+#navBar #right > p{
+    margin: 10px;
+    width: auto;
+    height: 29px;
+    cursor: pointer;
+}
+
+
+#container img{
+    width: 1119px;
+    height: 791px;
+    margin-left: 609px;
+    margin-top: -135px;
+}
+
+#container button{
+    width: 205px;
+    height: 56px;
+    cursor: pointer;
+    margin-top: 106px;
+    font-size: 24px;
+}
+
+#container button:first-child{
+    background-color: black;
+    color: white;
+    margin-left: 67px;
+}
+
+#container button:last-child{
+    margin-left: 33px;
+}
+
+#container #para1 p:first-child{
+    width: 386px;
+    height: 97px;
+    font-size: 80px;
+    margin-left: 62px;
+    margin-top: 2px;
+}
+
+#container #para1 p:last-child{
+    width: 762px;
+    height: 36px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 67px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
